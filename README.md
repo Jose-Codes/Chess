@@ -25,7 +25,7 @@ The following **optional** features are implemented:
 
 To make it easier to check for the optional features I will provide a set of imported game to demonstrate each:
 
-###To **castle** with the white pieces, import the following games and make sure to pass the -c command:
+### To **castle** with the white pieces, import the following games and make sure to pass the -c command:
     Short castle:
     command: ./chess -i e2e4,e7e5,g1f3,b8c6,g8f6 -c 
     - run the program
@@ -40,7 +40,7 @@ To make it easier to check for the optional features I will provide a set of imp
     - type mv e1 c1 
     - show the board once again, the king should be in c1 and the rook on d1
 
-###To **castle** with the black pieces, import the following games and make sure to pass the -c command,
+### To **castle** with the black pieces, import the following games and make sure to pass the -c command,
 as well as -r to make it easier to see:
     Short castle:
     command: ./chess -i d2d4,g7g6,c2c4,f8g7,g1f3,g8f6,b1c3 -c -r
@@ -56,7 +56,7 @@ as well as -r to make it easier to see:
     - type mv e8 c8 
     - show the board once again, the king should be in c8 and the rook on d8
 
-###To test **Underpromtion** make sure to pass the -u command, the following is an example using the white pieces:
+### To test **Underpromtion** make sure to pass the -u command, the following is an example using the white pieces:
     - command: ./chess -i e2e4,d7d5,e4xd5,e7e5,d5d6,e5e4,d6xc7,e4e3 -u
     - run the program
     - type show to see the board
@@ -64,7 +64,7 @@ as well as -r to make it easier to see:
     - type the letter of the piece you want to promote to
     - type show again to see it on the screen
 
-###Testing the timer is very simple, the easiet way is to:
+### Testing the timer is very simple, the easiet way is to:
         - command ./chess -t 1
         - wait 60 seconds
         - type a command like mv e2e4
