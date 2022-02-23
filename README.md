@@ -1,5 +1,5 @@
 # Project 2 - *Assignment 3*
-Jose Pujol, 6293900
+Jose Pujol
 Date: 02/22/2022
 
 ## Command Line Argumnets implemented:
